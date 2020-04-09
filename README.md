@@ -7,6 +7,8 @@ It has also logging functionality as well as silent mode.
 
 Run **myTCPlistener.exe --help** to get all the parameters and information you can get for this small utility.
 
+If you want to check the post around it go to my blog where is also a short walkthrough video https://www.sqltattoo.com/blog/2020/04/coding-day-a-small-tcp-listener-just-for-fun-and-work/
+
 Hope you enjoy it.
 
 
