@@ -82,7 +82,7 @@ public class myTCPListener
                 // You could also use server.AcceptSocket() here.
                 TcpClient client = server.AcceptTcpClient();
 
-                VerboseOrLogging("Connection from " + client.Client.RemoteEndPoint.ToString() +" establisehed @" + System.DateTime.UtcNow, logging);
+                VerboseOrLogging("Connection from " + client.Client.RemoteEndPoint.ToString() +" established @" + System.DateTime.UtcNow, logging);
                 
                 // Get a stream object for reading and writing
                 NetworkStream stream = client.GetStream();
@@ -226,7 +226,7 @@ public class myTCPListener
             Console.WriteLine("myTCPlistener.exe * 20000 1 0");
             Console.ForegroundColor = helpColor;
             Console.WriteLine();
-            Console.WriteLine("Examples 2: With parameters: ");
+            Console.WriteLine("Examples 3: With parameters: ");
             Console.WriteLine(" A specific IP 192.168.2.20 on the listener host on port 20000, enable logging to file, do not show info on screen");
             Console.WriteLine(" run the following command: ");
             Console.Write(" run the following command: ");
